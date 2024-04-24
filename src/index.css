@@ -24,6 +24,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  /* text-align: center; */
 }
 
 nav a {
@@ -42,7 +43,9 @@ nav a:active {
   color: tomato;
   border-bottom: 2px solid tomato;
 }
-
+#home {
+  color: rgb(173, 31, 6);
+}
 #home,
 #about {
   display: flex;
